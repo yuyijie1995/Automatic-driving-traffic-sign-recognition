@@ -4,7 +4,7 @@ import numpy as np
 
 
 if __name__ == '__main__':
-    pathCsv='train_label.csv'
+    pathCsv='train_label_fix.csv'
     f=open(pathCsv,'r')
     img=np.zeros((1800,3200,3),np.uint8)
     print('image shape:',img.shape)

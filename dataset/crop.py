@@ -67,9 +67,9 @@ def save_xml(image_name,oname, bbox, width, height, save_dir='/media/blacktea/DA
 
 if __name__ == '__main__':
 
-    save_w_dir='G:/df/train/'
-    textfile = open('./train_label_fix.csv', 'r', encoding='utf-8')
-    ff=open('./train_crop_lable.csv','w',encoding='utf-8')
+    save_w_dir='/home/andy/Data/signDetection/crop_train/'
+    textfile = open('./train_label_fix.csv', 'r')
+    ff=open('/home/andy/Data/signDetection/train_crop_lable.csv','w')
     num=0
     for line in textfile:
         if not line.strip():continue
@@ -87,18 +87,18 @@ if __name__ == '__main__':
         boxlist.append(cc)
         label.append(st[8])
 
-        if not os.path.exists('G:/df/Train_fix/'+name):
+        if not os.path.exists('/home/andy/Data/signDetection/train/'+name):
             continue
 
-        img = cv2.imread('G:/df/Train_fix/' + name)
+        img = cv2.imread('/home/andy/Data/signDetection/train/' + name)
         height, width = img.shape[:2]
         crop_p=(1-x_sum/(2*width),1-y_sum/(2*height))
-        image = ia.quokka(size=(height, width))
+        #image = ia.quokka(size=(height, width))
 
         if crop_p[0]<0 or crop_p[0]>1 or crop_p[1]<0 or crop_p[1]>1 :
             continue
 
-        bbs = ia.BoundingBoxesOnImage(boxlist, image.shape)
+        bbs = ia.BoundingBoxesOnImage(boxlist, img.shape)
 
         seq = iaa.Sequential([
             iaa.CropToFixedSize(width=800,height=450,position=crop_p)
