@@ -1,0 +1,19 @@
+<annotation>
+  <folder>JPEGImages</folder>
+  <filename>db3217aaa3f94dda83d33e32734b5d34.jpg</filename>
+  <size>
+    <width>3200</width>
+    <height>1800</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>F</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2245</xmin>
+      <ymin>909</ymin>
+      <xmax>2359</xmax>
+      <ymax>1013</ymax>
+    </bndbox>
+  </object>
+</annotation>

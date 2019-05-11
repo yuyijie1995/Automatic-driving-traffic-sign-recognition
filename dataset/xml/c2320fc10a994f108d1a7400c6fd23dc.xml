@@ -1,0 +1,19 @@
+<annotation>
+  <folder>JPEGImages</folder>
+  <filename>c2320fc10a994f108d1a7400c6fd23dc.jpg</filename>
+  <size>
+    <width>3200</width>
+    <height>1800</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>H</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1052</xmin>
+      <ymin>424</ymin>
+      <xmax>1093</xmax>
+      <ymax>467</ymax>
+    </bndbox>
+  </object>
+</annotation>
