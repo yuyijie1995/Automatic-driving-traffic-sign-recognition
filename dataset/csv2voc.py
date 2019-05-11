@@ -58,12 +58,23 @@ def save_xml(image_name,label, bbox, width, height, save_dir='./xml', channel=3)
 if __name__ == '__main__':
     csv='./train_label_fix.csv'
     f=open(csv,'r')
+    flgAlphabet=True
+
+    alphabet=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+    map={}
+    for i in range(21):
+        map[str(i)]=alphabet[i]
+
     for line in f:
         line=line.strip().split(',')
 
         if line[-1]=='type':continue
 
+        if flgAlphabet:
+            label=map[line[-1]]
+        else:
+            label = [line[-1]]
+
         name=line[0]
-        label=[line[-1]]
         box=[[line[1],line[2],line[5],line[6]]]
         save_xml(name,label,box,3200,1800)

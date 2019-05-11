@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52a1453-7b56-47d7-9988-7b50441b7d06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Automatic-driving-traffic-sign-recognition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automatic-driving-traffic-sign-recognition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/crop.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/crop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train_crop_lable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train_crop_lable.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/.idea/drawRect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drawRect/.idea/drawRect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drawRect/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drawRect/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drawRect/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drawRect/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/drawRect/draw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/rectImg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/drawRect/rectImg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drawRect/train_label.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/csv2voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/csv2voc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataset/csv2voc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            <state relative-caret-position="159">
+              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#185#1643#0" />
@@ -84,6 +68,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>、</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -248,12 +235,12 @@
       <workItem from="1557459049044" duration="816000" />
       <workItem from="1557467783433" duration="1574000" />
       <workItem from="1557469439052" duration="1427000" />
-      <workItem from="1557541618476" duration="1696000" />
+      <workItem from="1557541618476" duration="2733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6156000" />
+    <option name="totallyTimeSpent" value="7193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="300" y="56" width="1440" height="804" extended-state="0" />
@@ -264,7 +251,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32988167" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32988167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +311,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Automatic_driving_traffic_sign_recognition$crop.coverage" NAME="crop Coverage Results" MODIFIED="1557470057561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
-    <SUITE FILE_PATH="coverage/Automatic_driving_traffic_sign_recognition$csv2voc.coverage" NAME="csv2voc Coverage Results" MODIFIED="1557543310925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+    <SUITE FILE_PATH="coverage/Automatic_driving_traffic_sign_recognition$csv2voc.coverage" NAME="csv2voc Coverage Results" MODIFIED="1557544348576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
     <SUITE FILE_PATH="coverage/Automatic_driving_traffic_sign_recognition$draw.coverage" NAME="draw Coverage Results" MODIFIED="1557542325110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drawRect" />
   </component>
   <component name="editorHistoryManager">
@@ -365,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/csv2voc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        <state relative-caret-position="159">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#185#1643#0" />
